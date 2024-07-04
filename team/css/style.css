@@ -1,24 +1,19 @@
 /* Reset CSS */
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: 0;
 }
-
-
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
-
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .roboto-bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -53,7 +48,6 @@ border: 1px solid #ccc;
 section {
   padding: 3rem 0 4rem 0;
 }
-
 h1 {
   font-size: 3rem;
   font-weight:  normal;
@@ -63,10 +57,7 @@ h1.title {
   margin-bottom: 2rem;
   text-align: center;
   font-weight: bold;
-
 }
-
-
 .gray {
   background-color: #ebe9e9;
 }
@@ -87,7 +78,7 @@ h1.title {
   margin: 2rem 0;
 }
 .button {
-  /* background-color: #3396f3;
+  /*background-color: #3396f3;
   color: white; */
   padding: 10px 25px;
   text-decoration: none;
@@ -147,13 +138,13 @@ justify-content: space-between;
 }
 
 .member img {
+border-radius: 50%;
 width: 120px;
 height: 120px;
-border-radius: 50%;
 }
 
 footer{
-background-color: #3788bf ;  
+background-color: #3788bf;  
 }
 
 footer ul{
@@ -165,10 +156,10 @@ list-style-type: none; ;
 }
 
 footer a{
-color: white
+color: white;
 }
 footer p.copyright {
-padding: 3rem 0;
 color: #ffffffdd;
+padding: 3rem 0;
 text-align: center;
 }
